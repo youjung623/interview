@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="hero-label">PORTFOLIO</p>
+      <h1 class="hero-name">유정</h1>
+      <p class="hero-tagline">자동화 · 커머스 · 운영 기획</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="filter-section">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="automation">Automation</button>
+        <button class="filter-btn" data-filter="sales">Sales</button>
+        <button class="filter-btn" data-filter="management">Management</button>
+      </div>
+    </section>
+
+    <section class="projects-grid" id="projects">
+
+      <!-- Automation Project -->
+      <article class="project-card" data-category="automation">
+        <div class="card-tag">Automation</div>
+        <h2 class="card-title">법령 정보 자율 모니터링을 위한<br>알림 자동화</h2>
+        <p class="card-summary">
+          법제처 생활법령 업데이트 내역을 자동 수집·정리하여 이메일로 발송하는 시스템을
+          Claude Code를 활용해 기획·구현했습니다.
+        </p>
+        <div class="card-tools">
+          <span class="tool-badge">GitHub Actions</span>
+          <span class="tool-badge">Python</span>
+          <span class="tool-badge">RSS/API</span>
+          <span class="tool-badge">Claude Code</span>
+        </div>
+        <button class="card-detail-btn" data-project="automation-law">자세히 보기 →</button>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
