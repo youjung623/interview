@@ -96,7 +96,6 @@ const projects = {
   }
 };
 
-// Filter
 const filterBtns = document.querySelectorAll('.filter-btn');
 const cards = document.querySelectorAll('.project-card');
 
@@ -115,7 +114,6 @@ filterBtns.forEach(btn => {
   });
 });
 
-// Modal
 const overlay = document.getElementById('modalOverlay');
 const modalContent = document.getElementById('modalContent');
 const closeBtn = document.getElementById('modalClose');

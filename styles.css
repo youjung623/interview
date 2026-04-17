@@ -28,7 +28,6 @@ body {
   min-height: 100vh;
 }
 
-/* Hero */
 .hero {
   padding: 80px 24px 64px;
   text-align: center;
@@ -65,14 +64,12 @@ body {
   letter-spacing: 0.05em;
 }
 
-/* Container */
 .container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 24px 80px;
 }
 
-/* Filter */
 .filter-section {
   padding: 40px 0 32px;
 }
@@ -106,14 +103,12 @@ body {
   color: #fff;
 }
 
-/* Projects Grid */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 20px;
 }
 
-/* Project Card */
 .project-card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -208,7 +203,6 @@ body {
   color: #fff;
 }
 
-/* Modal */
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -277,7 +271,6 @@ body {
   clear: both;
 }
 
-/* Modal Content Styles */
 .modal-content .m-tag {
   font-size: 11px;
   letter-spacing: 0.1em;
